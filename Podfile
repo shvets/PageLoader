@@ -21,15 +21,15 @@ target 'PageLoader_tvOS' do
   end
 end
 
-# target 'PageLoader_macOS' do
-#   platform :osx, '10.10'
-#
-#   podspec :path => 'PageLoader.podspec'
-#
-#   target 'PageLoader_macOSTests' do
-#     inherit! :search_paths
-#   end
-# end
+target 'PageLoader_macOS' do
+  platform :osx, '10.10'
+
+  podspec :path => 'PageLoader.podspec'
+
+  target 'PageLoader_macOSTests' do
+    inherit! :search_paths
+  end
+end
 
 # post_install do |installer|
 #   installer.pods_project.targets.each do |target|
