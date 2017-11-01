@@ -6,57 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		"PageLoader::PageLoaderPackageTests::ProductTarget" /* PageLoaderPackageTests */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_43 /* Build configuration list for PBXAggregateTarget "PageLoaderPackageTests" */;
-			buildPhases = (
-			);
-			dependencies = (
-				OBJ_46 /* PBXTargetDependency */,
-			);
-			name = PageLoaderPackageTests;
-			productName = PageLoaderPackageTests;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
 		0A5A5AA1CA97A459FDFD9140 /* Pods_PageLoader_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769B329DAB7E57AD31E2DE7 /* Pods_PageLoader_macOS.framework */; };
-		2DBA110AF946900D1FB6280C /* LoadingViewPresentable-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA17AFED4014F02C8151A0 /* LoadingViewPresentable-extension.swift */; };
 		2DBA156F0C61B7CE1448A7D9 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */; };
-		2DBA16A5E14F9C0F54B870CA /* LoadingViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */; };
 		2DBA16C7EDC7DB8402FE874B /* LoadingViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */; };
-		2DBA171818CA3B159E7536E7 /* LoadingViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */; };
+		2DBA1A53D2977784538BF5B2 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A58201651D19AC74595 /* PlainSpinner.swift */; };
 		31373BE8B4C1EE773371796C /* Pods_PageLoader_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C245999C4DDD7D978ABEF5 /* Pods_PageLoader_tvOS.framework */; };
 		3C150165D0277BDADDC00101 /* Pods_PageLoader_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD3086D5E3C6E9CA8C69A75 /* Pods_PageLoader_iOSTests.framework */; };
 		B534E6125EDD65F179FD9A44 /* Pods_PageLoader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08757311EAAB2A6D6EB4D30B /* Pods_PageLoader_iOS.framework */; };
 		BD3D6728643344E607826B1E /* Pods_PageLoader_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA826155A32AB6812E19EE77 /* Pods_PageLoader_tvOSTests.framework */; };
 		CCB546250D4EBEE9CDA7DBA4 /* Pods_PageLoader_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E2FBE78FA516EEACD9E8E /* Pods_PageLoader_macOSTests.framework */; };
-		FA6876661FAA823300FB9182 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
-		FA6876671FAA823400FB9182 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
-		FA6876681FAA823500FB9182 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
-		FA6876691FAA824000FB9182 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */; };
-		FA68766A1FAA824300FB9182 /* LoadingViewPresentable-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA17AFED4014F02C8151A0 /* LoadingViewPresentable-extension.swift */; };
+		FA26C3D11FAA86440085DE32 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
+		FA26C3D21FAA86450085DE32 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
+		FA26C3D31FAA86460085DE32 /* LoadingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */; };
+		FA26C3D61FAA864C0085DE32 /* LoadingViewPresentable-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6876701FAA846C00FB9182 /* LoadingViewPresentable-extension.swift */; };
+		FA26C3D71FAA87430085DE32 /* LoadingViewPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */; };
 		FA7BDEF61FA52049003FCEC3 /* PageLoader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */; };
 		FA7BDEFB1FA52049003FCEC3 /* PageLoader_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BDEFA1FA52049003FCEC3 /* PageLoader_iOSTests.swift */; };
-		FA7BDEFD1FA52049003FCEC3 /* PageLoader_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7BDEEF1FA52049003FCEC3 /* PageLoader_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA7BDF121FA5206C003FCEC3 /* PageLoader_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BDF091FA5206C003FCEC3 /* PageLoader_tvOS.framework */; };
 		FA7BDF171FA5206C003FCEC3 /* PageLoader_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BDF161FA5206C003FCEC3 /* PageLoader_tvOSTests.swift */; };
-		FA7BDF191FA5206C003FCEC3 /* PageLoader_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7BDF0B1FA5206C003FCEC3 /* PageLoader_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA7BDF2E1FA52084003FCEC3 /* PageLoader_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BDF251FA52084003FCEC3 /* PageLoader_macOS.framework */; };
 		FA7BDF331FA52084003FCEC3 /* PageLoader_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BDF321FA52084003FCEC3 /* PageLoader_macOSTests.swift */; };
-		FA7BDF351FA52084003FCEC3 /* PageLoader_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = FA7BDF271FA52084003FCEC3 /* PageLoader_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA7BDF3C1FA520C3003FCEC3 /* PageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PageLoader.swift */; };
 		FA7BDF3E1FA520C3003FCEC3 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Spinner.swift */; };
 		FA7BDF3F1FA520C4003FCEC3 /* PageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PageLoader.swift */; };
 		FA7BDF411FA520C4003FCEC3 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Spinner.swift */; };
 		FA7BDF421FA520C5003FCEC3 /* PageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PageLoader.swift */; };
 		FA7BDF441FA520C5003FCEC3 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Spinner.swift */; };
-		OBJ_23 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_29 /* PageLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* PageLoaderTests.swift */; };
-		OBJ_31 /* PageLoader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PageLoader::PageLoader::Product" /* PageLoader.framework */; };
-		OBJ_38 /* PageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* PageLoader.swift */; };
-		OBJ_40 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Spinner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,20 +57,6 @@
 			remoteGlobalIDString = FA7BDF241FA52084003FCEC3;
 			remoteInfo = PageLoader_macOS;
 		};
-		FA921F3B1F9BCCFF00BCB308 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "PageLoader::PageLoader";
-			remoteInfo = PageLoader;
-		};
-		FA921F3C1F9BCD0000BCB308 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "PageLoader::PageLoaderTests";
-			remoteInfo = PageLoaderTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -103,7 +65,7 @@
 		11AAC084EC3ACD43B8545727 /* Pods-PageLoader_iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOSTests/Pods-PageLoader_iOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		179B2FC3A47CEF358A635F5E /* Pods-PageLoader_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_macOS/Pods-PageLoader_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewPresentable.swift; sourceTree = "<group>"; };
-		2DBA17AFED4014F02C8151A0 /* LoadingViewPresentable-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoadingViewPresentable-extension.swift"; path = "ios/LoadingViewPresentable-extension.swift"; sourceTree = "<group>"; };
+		2DBA1A58201651D19AC74595 /* PlainSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainSpinner.swift; sourceTree = "<group>"; };
 		2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingStatus.swift; sourceTree = "<group>"; };
 		2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlainSpinner.swift; path = ios/PlainSpinner.swift; sourceTree = "<group>"; };
 		3028C0567078CD0F20ECAEA5 /* Pods-PageLoader_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOSTests/Pods-PageLoader_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -119,6 +81,7 @@
 		D78E2FBE78FA516EEACD9E8E /* Pods_PageLoader_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA826155A32AB6812E19EE77 /* Pods_PageLoader_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE934654FB515385D9B566E3 /* Pods-PageLoader_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOS/Pods-PageLoader_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		FA6876701FAA846C00FB9182 /* LoadingViewPresentable-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "LoadingViewPresentable-extension.swift"; path = "ios/LoadingViewPresentable-extension.swift"; sourceTree = "<group>"; };
 		FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageLoader_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7BDEEF1FA52049003FCEC3 /* PageLoader_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLoader_iOS.h; sourceTree = "<group>"; };
 		FA7BDEF01FA52049003FCEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -142,18 +105,9 @@
 		OBJ_14 /* PageLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoaderTests.swift; sourceTree = "<group>"; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_9 /* PageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageLoader.swift; sourceTree = "<group>"; };
-		"PageLoader::PageLoader::Product" /* PageLoader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PageLoader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		"PageLoader::PageLoaderTests::Product" /* PageLoaderTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = PageLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2A7CAA844E747A66C4CDA0A4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FA7BDEE91FA52049003FCEC3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,24 +159,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_30 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_31 /* PageLoader.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_41 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DBA133E5327759C3D06AA81 /* tvos */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA1A58201651D19AC74595 /* PlainSpinner.swift */,
+			);
+			name = tvos;
+			path = Sources/PageLoader/tvos;
+			sourceTree = "<group>";
+		};
 		2DBA174546D48CE6C44D7CC9 /* tvos */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +181,7 @@
 		2DBA19EAE4BA391645C499EF /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				2DBA17AFED4014F02C8151A0 /* LoadingViewPresentable-extension.swift */,
+				FA6876701FAA846C00FB9182 /* LoadingViewPresentable-extension.swift */,
 				2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */,
 			);
 			name = ios;
@@ -244,6 +192,14 @@
 			children = (
 			);
 			name = macos;
+			sourceTree = "<group>";
+		};
+		2DBA1D6C7B7804102DDFBF89 /* macos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = macos;
+			path = Sources/PageLoader/macos;
 			sourceTree = "<group>";
 		};
 		330764016CF0BE127C9D680E /* Pods */ = {
@@ -351,8 +307,6 @@
 		OBJ_15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"PageLoader::PageLoaderTests::Product" /* PageLoaderTests.xctest */,
-				"PageLoader::PageLoader::Product" /* PageLoader.framework */,
 				FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */,
 				FA7BDEF51FA52049003FCEC3 /* PageLoader_iOSTests.xctest */,
 				FA7BDF091FA5206C003FCEC3 /* PageLoader_tvOS.framework */,
@@ -378,6 +332,8 @@
 				OBJ_15 /* Products */,
 				330764016CF0BE127C9D680E /* Pods */,
 				91691D55F8554278A4DAC4A1 /* Frameworks */,
+				2DBA133E5327759C3D06AA81 /* tvos */,
+				2DBA1D6C7B7804102DDFBF89 /* macos */,
 			);
 			sourceTree = "<group>";
 		};
@@ -392,13 +348,13 @@
 		OBJ_8 /* PageLoader */ = {
 			isa = PBXGroup;
 			children = (
-				2DBA19EAE4BA391645C499EF /* ios */,
-				2DBA174546D48CE6C44D7CC9 /* tvos */,
-				2DBA1CC08EB4C121132B7CCF /* macos */,
 				2DBA12A444EE23523C130F06 /* LoadingViewPresentable.swift */,
 				OBJ_9 /* PageLoader.swift */,
 				OBJ_11 /* Spinner.swift */,
 				2DBA1A6ABEE7EDB849D97359 /* LoadingStatus.swift */,
+				2DBA19EAE4BA391645C499EF /* ios */,
+				2DBA174546D48CE6C44D7CC9 /* tvos */,
+				2DBA1CC08EB4C121132B7CCF /* macos */,
 			);
 			name = PageLoader;
 			path = Sources/PageLoader;
@@ -411,7 +367,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7BDEFD1FA52049003FCEC3 /* PageLoader_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,7 +374,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7BDF191FA5206C003FCEC3 /* PageLoader_tvOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +381,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7BDF351FA52084003FCEC3 /* PageLoader_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,54 +510,6 @@
 			productReference = FA7BDF2D1FA52084003FCEC3 /* PageLoader_macOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"PageLoader::PageLoader" /* PageLoader */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_34 /* Build configuration list for PBXNativeTarget "PageLoader" */;
-			buildPhases = (
-				OBJ_37 /* Sources */,
-				OBJ_41 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PageLoader;
-			productName = PageLoader;
-			productReference = "PageLoader::PageLoader::Product" /* PageLoader.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		"PageLoader::PageLoaderTests" /* PageLoaderTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_25 /* Build configuration list for PBXNativeTarget "PageLoaderTests" */;
-			buildPhases = (
-				OBJ_28 /* Sources */,
-				OBJ_30 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				OBJ_32 /* PBXTargetDependency */,
-			);
-			name = PageLoaderTests;
-			productName = PageLoaderTests;
-			productReference = "PageLoader::PageLoaderTests::Product" /* PageLoaderTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		"PageLoader::SwiftPMPackageDescription" /* PageLoaderPackageDescription */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_19 /* Build configuration list for PBXNativeTarget "PageLoaderPackageDescription" */;
-			buildPhases = (
-				OBJ_22 /* Sources */,
-				2A7CAA844E747A66C4CDA0A4 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PageLoaderPackageDescription;
-			productName = PageLoaderPackageDescription;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -658,10 +563,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"PageLoader::SwiftPMPackageDescription" /* PageLoaderPackageDescription */,
-				"PageLoader::PageLoaderTests" /* PageLoaderTests */,
-				"PageLoader::PageLoader" /* PageLoader */,
-				"PageLoader::PageLoaderPackageTests::ProductTarget" /* PageLoaderPackageTests */,
 				FA7BDEEC1FA52049003FCEC3 /* PageLoader_iOS */,
 				FA7BDEF41FA52049003FCEC3 /* PageLoader_iOSTests */,
 				FA7BDF081FA5206C003FCEC3 /* PageLoader_tvOS */,
@@ -968,10 +869,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6876661FAA823300FB9182 /* LoadingStatus.swift in Sources */,
 				FA7BDF3E1FA520C3003FCEC3 /* Spinner.swift in Sources */,
+				FA26C3D61FAA864C0085DE32 /* LoadingViewPresentable-extension.swift in Sources */,
+				FA26C3D11FAA86440085DE32 /* LoadingStatus.swift in Sources */,
 				FA7BDF3C1FA520C3003FCEC3 /* PageLoader.swift in Sources */,
-				2DBA110AF946900D1FB6280C /* LoadingViewPresentable-extension.swift in Sources */,
 				2DBA156F0C61B7CE1448A7D9 /* PlainSpinner.swift in Sources */,
 				2DBA16C7EDC7DB8402FE874B /* LoadingViewPresentable.swift in Sources */,
 			);
@@ -989,12 +890,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6876691FAA824000FB9182 /* PlainSpinner.swift in Sources */,
-				FA68766A1FAA824300FB9182 /* LoadingViewPresentable-extension.swift in Sources */,
-				FA6876671FAA823400FB9182 /* LoadingStatus.swift in Sources */,
+				FA26C3D71FAA87430085DE32 /* LoadingViewPresentable.swift in Sources */,
+				FA26C3D21FAA86450085DE32 /* LoadingStatus.swift in Sources */,
 				FA7BDF411FA520C4003FCEC3 /* Spinner.swift in Sources */,
 				FA7BDF3F1FA520C4003FCEC3 /* PageLoader.swift in Sources */,
-				2DBA171818CA3B159E7536E7 /* LoadingViewPresentable.swift in Sources */,
+				2DBA1A53D2977784538BF5B2 /* PlainSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1010,10 +910,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA6876681FAA823500FB9182 /* LoadingStatus.swift in Sources */,
+				FA26C3D31FAA86460085DE32 /* LoadingStatus.swift in Sources */,
 				FA7BDF441FA520C5003FCEC3 /* Spinner.swift in Sources */,
 				FA7BDF421FA520C5003FCEC3 /* PageLoader.swift in Sources */,
-				2DBA16A5E14F9C0F54B870CA /* LoadingViewPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1022,31 +921,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7BDF331FA52084003FCEC3 /* PageLoader_macOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_23 /* Package.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_28 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_29 /* PageLoaderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		OBJ_37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				OBJ_38 /* PageLoader.swift in Sources */,
-				OBJ_40 /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1067,16 +941,6 @@
 			isa = PBXTargetDependency;
 			target = FA7BDF241FA52084003FCEC3 /* PageLoader_macOS */;
 			targetProxy = FA7BDF2F1FA52084003FCEC3 /* PBXContainerItemProxy */;
-		};
-		OBJ_32 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "PageLoader::PageLoader" /* PageLoader */;
-			targetProxy = FA921F3B1F9BCCFF00BCB308 /* PBXContainerItemProxy */;
-		};
-		OBJ_46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "PageLoader::PageLoaderTests" /* PageLoaderTests */;
-			targetProxy = FA921F3C1F9BCD0000BCB308 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1831,60 +1695,6 @@
 			};
 			name = Release;
 		};
-		OBJ_20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
-		OBJ_26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = PageLoader.xcodeproj/PageLoaderTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = PageLoaderTests;
-			};
-			name = Debug;
-		};
-		OBJ_27 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = PageLoader.xcodeproj/PageLoaderTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = PageLoaderTests;
-			};
-			name = Release;
-		};
 		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1907,50 +1717,6 @@
 			};
 			name = Debug;
 		};
-		OBJ_35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = PageLoader.xcodeproj/PageLoader_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PageLoader;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = PageLoader;
-			};
-			name = Debug;
-		};
-		OBJ_36 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = PageLoader.xcodeproj/PageLoader_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = PageLoader;
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = PageLoader;
-			};
-			name = Release;
-		};
 		OBJ_4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1968,18 +1734,6 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				USE_HEADERMAP = NO;
-			};
-			name = Release;
-		};
-		OBJ_44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-			};
-			name = Debug;
-		};
-		OBJ_45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
 			};
 			name = Release;
 		};
@@ -2040,47 +1794,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		OBJ_19 /* Build configuration list for PBXNativeTarget "PageLoaderPackageDescription" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_20 /* Debug */,
-				OBJ_21 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		OBJ_2 /* Build configuration list for PBXProject "PageLoader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_3 /* Debug */,
 				OBJ_4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_25 /* Build configuration list for PBXNativeTarget "PageLoaderTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_26 /* Debug */,
-				OBJ_27 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_34 /* Build configuration list for PBXNativeTarget "PageLoader" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_35 /* Debug */,
-				OBJ_36 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		OBJ_43 /* Build configuration list for PBXAggregateTarget "PageLoaderPackageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				OBJ_44 /* Debug */,
-				OBJ_45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

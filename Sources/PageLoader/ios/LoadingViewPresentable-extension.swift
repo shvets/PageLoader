@@ -12,7 +12,7 @@ extension LoadingViewPresentable where Self: UIViewController {
           //LoadingView.hide(for: view, animated: animated)
           print("1")
 
-        case .visible(let text):
+        case .visible:
           // find top-most loading view and reuse it, or create a new one
 //          let loadingView = view.subviews.flatMap({ $0 as? LoadingView}).first ??
 //            LoadingView.showAdded(to: view, animated: animated)
