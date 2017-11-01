@@ -5,7 +5,7 @@ import UIKit
 extension LoadingViewPresentable where Self: UIViewController {
 
   public func setLoadingViewStatus(_ status: LoadingStatus, animated: Bool) {
-    if isViewLoaded {
+    //if isViewLoaded {
       switch status {
         case .hidden:
           // hide a custom loading view indicator on the provided view.
@@ -20,6 +20,6 @@ extension LoadingViewPresentable where Self: UIViewController {
 //          loadingView.show(animated: animated)
                   print("2")
       }
-    }
+   // }
   }
 }
