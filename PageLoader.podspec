@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PageLoader"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Library for supporting infinite data loading"
   s.description  = "Library for supporting infinite data loading."
 
@@ -14,10 +14,10 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = "10.0"
   #s.watchos.deployment_target = "2.0"
 
-  s.source_files = "Sources/*.swift"
-  s.ios.source_files = "Sources/ios/**/*.swift"
-  s.tvos.source_files = "Sources/tvos/**/*.swift"
-  s.osx.source_files = "Sources/macos/**/*.swift"
+  s.source_files = "Sources/PageLoader/*.swift"
+  s.ios.source_files = "Sources/PageLoader/ios/**/*.swift"
+  s.tvos.source_files = "Sources/PageLoader/tvos/**/*.swift"
+  s.osx.source_files = "Sources/PageLoader/macos/**/*.swift"
 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 end
