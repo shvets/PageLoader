@@ -10,6 +10,7 @@
 		0A5A5AA1CA97A459FDFD9140 /* Pods_PageLoader_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7769B329DAB7E57AD31E2DE7 /* Pods_PageLoader_macOS.framework */; };
 		2DBA156F0C61B7CE1448A7D9 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */; };
 		2DBA1A53D2977784538BF5B2 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1A58201651D19AC74595 /* PlainSpinner.swift */; };
+		2DBA1B27B66AF46C476D1191 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1D61564246D5F3D9842A /* PlainSpinner.swift */; };
 		31373BE8B4C1EE773371796C /* Pods_PageLoader_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C245999C4DDD7D978ABEF5 /* Pods_PageLoader_tvOS.framework */; };
 		3C150165D0277BDADDC00101 /* Pods_PageLoader_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD3086D5E3C6E9CA8C69A75 /* Pods_PageLoader_iOSTests.framework */; };
 		B534E6125EDD65F179FD9A44 /* Pods_PageLoader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08757311EAAB2A6D6EB4D30B /* Pods_PageLoader_iOS.framework */; };
@@ -61,6 +62,7 @@
 		179B2FC3A47CEF358A635F5E /* Pods-PageLoader_macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_macOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_macOS/Pods-PageLoader_macOS.release.xcconfig"; sourceTree = "<group>"; };
 		2DBA1A58201651D19AC74595 /* PlainSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainSpinner.swift; sourceTree = "<group>"; };
 		2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlainSpinner.swift; path = ios/PlainSpinner.swift; sourceTree = "<group>"; };
+		2DBA1D61564246D5F3D9842A /* PlainSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainSpinner.swift; sourceTree = "<group>"; };
 		3028C0567078CD0F20ECAEA5 /* Pods-PageLoader_iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOSTests/Pods-PageLoader_iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		46C245999C4DDD7D978ABEF5 /* Pods_PageLoader_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		480DDB17CACF7E1DF9F1DCD2 /* Pods-PageLoader_tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_tvOS/Pods-PageLoader_tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		2DBA1D6C7B7804102DDFBF89 /* macos */ = {
 			isa = PBXGroup;
 			children = (
+				2DBA1D61564246D5F3D9842A /* PlainSpinner.swift */,
 			);
 			name = macos;
 			path = Sources/PageLoader/macos;
@@ -891,6 +894,7 @@
 				FA7BDF441FA520C5003FCEC3 /* Spinner.swift in Sources */,
 				FA39426D1FABF98B00F741F1 /* PlainSpinner.swift in Sources */,
 				FA7BDF421FA520C5003FCEC3 /* PageLoader.swift in Sources */,
+				2DBA1B27B66AF46C476D1191 /* PlainSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
