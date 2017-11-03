@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "PageLoader"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "Library for supporting infinite data loading"
   s.description  = "Library for supporting infinite data loading."
 
