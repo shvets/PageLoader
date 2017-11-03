@@ -16,7 +16,9 @@
 		B534E6125EDD65F179FD9A44 /* Pods_PageLoader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08757311EAAB2A6D6EB4D30B /* Pods_PageLoader_iOS.framework */; };
 		BD3D6728643344E607826B1E /* Pods_PageLoader_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA826155A32AB6812E19EE77 /* Pods_PageLoader_tvOSTests.framework */; };
 		CCB546250D4EBEE9CDA7DBA4 /* Pods_PageLoader_macOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D78E2FBE78FA516EEACD9E8E /* Pods_PageLoader_macOSTests.framework */; };
-		FA39426D1FABF98B00F741F1 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA39426B1FABF98300F741F1 /* PlainSpinner.swift */; };
+		FA3942711FAC023E00F741F1 /* BaseSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3942701FAC023E00F741F1 /* BaseSpinner.swift */; };
+		FA3942721FAC023E00F741F1 /* BaseSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3942701FAC023E00F741F1 /* BaseSpinner.swift */; };
+		FA3942731FAC02A300F741F1 /* PlainSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */; };
 		FA7BDEF61FA52049003FCEC3 /* PageLoader_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */; };
 		FA7BDEFB1FA52049003FCEC3 /* PageLoader_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7BDEFA1FA52049003FCEC3 /* PageLoader_iOSTests.swift */; };
 		FA7BDF121FA5206C003FCEC3 /* PageLoader_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA7BDF091FA5206C003FCEC3 /* PageLoader_tvOS.framework */; };
@@ -76,7 +78,7 @@
 		D78E2FBE78FA516EEACD9E8E /* Pods_PageLoader_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA826155A32AB6812E19EE77 /* Pods_PageLoader_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE934654FB515385D9B566E3 /* Pods-PageLoader_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOS/Pods-PageLoader_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		FA39426B1FABF98300F741F1 /* PlainSpinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainSpinner.swift; sourceTree = "<group>"; };
+		FA3942701FAC023E00F741F1 /* BaseSpinner.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BaseSpinner.swift; sourceTree = "<group>"; tabWidth = 2; };
 		FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageLoader_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7BDEEF1FA52049003FCEC3 /* PageLoader_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLoader_iOS.h; sourceTree = "<group>"; };
 		FA7BDEF01FA52049003FCEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,16 +172,9 @@
 			isa = PBXGroup;
 			children = (
 				2DBA1BAB4E8607D5E5913BD7 /* PlainSpinner.swift */,
+				FA3942701FAC023E00F741F1 /* BaseSpinner.swift */,
 			);
 			name = ios;
-			sourceTree = "<group>";
-		};
-		2DBA1CC08EB4C121132B7CCF /* macos */ = {
-			isa = PBXGroup;
-			children = (
-				FA39426B1FABF98300F741F1 /* PlainSpinner.swift */,
-			);
-			name = macos;
 			sourceTree = "<group>";
 		};
 		2DBA1D6C7B7804102DDFBF89 /* macos */ = {
@@ -340,7 +335,6 @@
 				OBJ_9 /* PageLoader.swift */,
 				OBJ_11 /* Spinner.swift */,
 				2DBA19EAE4BA391645C499EF /* ios */,
-				2DBA1CC08EB4C121132B7CCF /* macos */,
 			);
 			name = PageLoader;
 			path = Sources/PageLoader;
@@ -857,6 +851,7 @@
 			files = (
 				FA7BDF3E1FA520C3003FCEC3 /* Spinner.swift in Sources */,
 				FA7BDF3C1FA520C3003FCEC3 /* PageLoader.swift in Sources */,
+				FA3942711FAC023E00F741F1 /* BaseSpinner.swift in Sources */,
 				2DBA156F0C61B7CE1448A7D9 /* PlainSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -873,8 +868,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3942731FAC02A300F741F1 /* PlainSpinner.swift in Sources */,
 				FA7BDF411FA520C4003FCEC3 /* Spinner.swift in Sources */,
 				FA7BDF3F1FA520C4003FCEC3 /* PageLoader.swift in Sources */,
+				FA3942721FAC023E00F741F1 /* BaseSpinner.swift in Sources */,
 				2DBA1A53D2977784538BF5B2 /* PlainSpinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -892,7 +889,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA7BDF441FA520C5003FCEC3 /* Spinner.swift in Sources */,
-				FA39426D1FABF98B00F741F1 /* PlainSpinner.swift in Sources */,
 				FA7BDF421FA520C5003FCEC3 /* PageLoader.swift in Sources */,
 				2DBA1B27B66AF46C476D1191 /* PlainSpinner.swift in Sources */,
 			);
