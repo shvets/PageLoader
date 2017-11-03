@@ -78,7 +78,7 @@
 		D78E2FBE78FA516EEACD9E8E /* Pods_PageLoader_macOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_macOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA826155A32AB6812E19EE77 /* Pods_PageLoader_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PageLoader_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE934654FB515385D9B566E3 /* Pods-PageLoader_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PageLoader_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-PageLoader_iOS/Pods-PageLoader_iOS.release.xcconfig"; sourceTree = "<group>"; };
-		FA3942701FAC023E00F741F1 /* BaseSpinner.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BaseSpinner.swift; sourceTree = "<group>"; tabWidth = 2; };
+		FA3942701FAC023E00F741F1 /* BaseSpinner.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = BaseSpinner.swift; path = ios/BaseSpinner.swift; sourceTree = "<group>"; tabWidth = 2; };
 		FA7BDEED1FA52049003FCEC3 /* PageLoader_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PageLoader_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7BDEEF1FA52049003FCEC3 /* PageLoader_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageLoader_iOS.h; sourceTree = "<group>"; };
 		FA7BDEF01FA52049003FCEC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
