@@ -1,5 +1,4 @@
 import AppKit
-import PageLoader
 
 open class PlainSpinner: Spinner {
     open var view: NSProgressIndicator
