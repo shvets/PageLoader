@@ -32,6 +32,10 @@ public class PageLoader {
   }
 
   open func loadData(onLoad: (() throws -> [Any])?=nil, onLoadCompleted: @escaping ([Any]) -> Void) {
+    if let onLoad = onLoad {
+      self.load = onLoad
+    }
+    
     if !loading {
       loading = true
 
@@ -40,13 +44,8 @@ public class PageLoader {
       dispatchQueue.async {
         do {
           var result = [Any]()
-
-          if (onLoad != nil) {
-            result = try onLoad!()
-          }
-          else {
-            result = try self.load()
-          }
+          
+          result = try self.load()
 
           self.endOfData = result.isEmpty || (self.pageSize != 0 && result.count < self.pageSize)
 
