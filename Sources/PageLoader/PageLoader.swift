@@ -15,10 +15,6 @@ public class PageLoader {
 
   private var paginationEnabled = false
 
-  public var load: (() throws -> [Any]) = {
-    return []
-  }
-
   public init() {}
 
   public func clear() {
@@ -31,11 +27,7 @@ public class PageLoader {
     paginationEnabled = true
   }
 
-  open func loadData(onLoad: (() throws -> [Any])?=nil, onLoadCompleted: @escaping ([Any]) -> Void) {
-    if let onLoad = onLoad {
-      self.load = onLoad
-    }
-    
+  open func loadData(onLoad: @escaping (() throws -> [Any]), onLoadCompleted: @escaping ([Any]) -> Void) {
     if !loading {
       loading = true
 
@@ -45,7 +37,7 @@ public class PageLoader {
         do {
           var result = [Any]()
           
-          result = try self.load()
+          result = try onLoad()
 
           self.endOfData = result.isEmpty || (self.pageSize != 0 && result.count < self.pageSize)
 
