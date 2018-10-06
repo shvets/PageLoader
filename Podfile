@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PageLoader_iOS' do
-  platform :ios, '10.11'
+  platform :ios, '10.0'
 
   podspec :path => 'PageLoader.podspec'
 
@@ -12,7 +12,7 @@ target 'PageLoader_iOS' do
 end
 
 target 'PageLoader_tvOS' do
-  platform :tvos, '10.11'
+  platform :tvos, '10.10'
 
   podspec :path => 'PageLoader.podspec'
 
@@ -22,7 +22,7 @@ target 'PageLoader_tvOS' do
 end
 
 target 'PageLoader_macOS' do
-  platform :osx, '10.11'
+  platform :osx, '10.10'
 
   podspec :path => 'PageLoader.podspec'
 
