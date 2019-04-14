@@ -19,5 +19,5 @@ Pod::Spec.new do |s|
   s.tvos.source_files = "Sources/PageLoader/ios/**/*.swift"
   s.osx.source_files = "Sources/PageLoader/macos/**/*.swift"
 
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5' }
 end
